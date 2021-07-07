@@ -23,7 +23,8 @@ COPY requirements.txt /mlapi/src/requirements.txt
 WORKDIR /mlapi/src
 
 # Install production dependencies.
-RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
+RUN python3.7 -m pip install pip
+RUN python3.7 -m pip install pip --upgrade pip
+RUN python3.7 -m pip install -r requirements.txt
 
 EXPOSE 7000
