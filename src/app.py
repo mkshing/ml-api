@@ -1,6 +1,5 @@
 import warnings
 warnings.simplefilter('ignore', FutureWarning)
-import sys
 import io
 from pathlib import Path
 from tempfile import NamedTemporaryFile
@@ -14,7 +13,6 @@ from uvicorn.config import LOGGING_CONFIG
 
 from keras.preprocessing.image import img_to_array
 from keras.models import load_model
-from keras.utils import get_file
 import tensorflow as tf
 from tensorflow.python.keras.backend import set_session
 import numpy as np

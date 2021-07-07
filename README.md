@@ -4,7 +4,7 @@ you might want someone to test or deploy it on your product.
 
 This repository contains the sample code to make your machine learning API from the scratch. 
 
-Here, FastAPI and Gender Detection Model are used. 
+Here, FastAPI and [Gender Detection Model](https://github.com/arunponnusamy/gender-detection-keras) are used. 
 
 ## Usage 
 ### Test on your local 
