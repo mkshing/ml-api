@@ -1,0 +1,15 @@
+Werkzeug
+Flask
+flask_restful
+fastapi
+gunicorn
+matplotlib
+tqdm
+opencv-python
+cvlib
+sklearn
+tensorflow==1.14
+tensorboard==1.14
+tensorflow-estimator==1.14
+keras==2.3.1
+uvicorn==0.14.0
