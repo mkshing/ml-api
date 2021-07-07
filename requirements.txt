@@ -6,6 +6,7 @@ gunicorn
 matplotlib
 tqdm
 opencv-python
+opencv-contrib-python
 cvlib
 sklearn
 tensorflow==1.14

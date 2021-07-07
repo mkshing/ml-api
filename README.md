@@ -49,3 +49,8 @@ Once it's done, `mlapi` image was created.
 
 ```
 
+#### TODO
++[ ] Test Dockerfile
++[ ] Allow `docker-compose up` that can access from local
++[ ] Streamlit UI 
+
