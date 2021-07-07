@@ -108,7 +108,6 @@ def predict(image: UploadFile = File(...)):
     labeled_image = _process(cv2image)
     # except:
     #     raise HTTPException(status_code=500, detail=sys.exc_info()[0])
-
     res, im_png = cv2.imencode(".png", labeled_image)
     return StreamingResponse(io.BytesIO(im_png.tobytes()), media_type="image/png")
 
