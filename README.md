@@ -11,7 +11,7 @@ Here, FastAPI and [Gender Detection Model](https://github.com/arunponnusamy/gend
 1. Create your original env by using `pyenv` or `venv`
 - pyenv
   ```
-  >> /Users/USERNAME/.pyenv/versions/3.6.5/bin/python -m venv venv/3.8.10
+  >> /Users/USERNAME/.pyenv/versions/3.6.5/bin/python -m venv venv/3.6.5
   >> source venv/3.6.5/bin/activate
   >> (3.6.5) pip install --upgrade pip
   ```
