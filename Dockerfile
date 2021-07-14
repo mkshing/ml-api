@@ -25,6 +25,7 @@ WORKDIR /mlapi/src
 # Install production dependencies.
 RUN python3.7 -m pip install pip
 RUN python3.7 -m pip install pip --upgrade pip
-RUN python3.7 -m pip install -r requirements.txt
+RUN python3.7 -m pip install -r /mlapi/src/requirements.txt
 
 EXPOSE 7000
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "7000"]
