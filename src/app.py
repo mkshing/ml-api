@@ -27,8 +27,8 @@ MODEL_PATH = "../model/gender_detection.model"
 TRAIN_DIR = "../train-data"
 # load model and tokenizer
 print("Loading model...")
-sess = tf.Session()
-graph = tf.get_default_graph()
+sess = tf.compat.v1.Session()
+graph = tf.compat.v1.get_default_graph()
 
 # IMPORTANT: models have to be loaded AFTER SETTING THE SESSION for keras!
 # Otherwise, their weights will be unavailable in the threads after the session there has been set
