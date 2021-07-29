@@ -35,8 +35,7 @@ Here, FastAPI and [Gender Detection Model](https://github.com/arunponnusamy/gend
 4. POST an image to the endpoint `http://0.0.0.0:7000/genpredict/`
 
 ### Convert to Docker Image
-⚠️Now, it doesn't work. Will work soon...
-1. Build a image 
+- Build a image 
 ```
 >> pwd
 ~/ml-api/src
@@ -45,14 +44,14 @@ Here, FastAPI and [Gender Detection Model](https://github.com/arunponnusamy/gend
 ```
 Once it's done, `mlapi` image was created. 
 
-2. Create the container
+- Create the container
 ```
 docker-compose up
 ```
 
 #### TODO
 - [x] local app 
-- [ ] Make Dockerfile work 
-- [ ] Allow `docker-compose up` that can access from local
-- [ ] Streamlit UI 
+- [x] Make Dockerfile work 
+- [x] Allow `docker-compose up` that can access from local
+- [x] Streamlit UI 
 

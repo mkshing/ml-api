@@ -3,6 +3,7 @@ Flask
 flask_restful
 fastapi
 gunicorn
+streamlit
 matplotlib
 tqdm
 opencv-python
