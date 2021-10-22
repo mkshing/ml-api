@@ -54,4 +54,3 @@ docker-compose up
 - [x] Make Dockerfile work 
 - [x] Allow `docker-compose up` that can access from local
 - [x] Streamlit UI 
-
